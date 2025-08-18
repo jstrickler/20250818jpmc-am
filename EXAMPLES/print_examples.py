@@ -7,7 +7,10 @@ print(city, temperature, hit_count, average)
 print()
 
 print(city, end=' ')  # Print space instead of newline at the end
+# if ....
 print(temperature)
+# else
+# print(....)
 print()
 
 # Item separator is comma + space
@@ -17,3 +20,6 @@ print()
 # Item separator is empty string
 print(city, temperature, hit_count, average, sep="")
 print()
+
+print(city, temperature, hit_count, average, sep=" <=> ")
+print(city, temperature, hit_count, average, sep="#")

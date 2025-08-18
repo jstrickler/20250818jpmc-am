@@ -14,6 +14,7 @@ x += 10  # Same as x = x + 10
 print(f"{x = }")
 print()
 
+# () ** * and /  + and - 
 alpha = 1
 beta = 2
 gamma = 3
@@ -23,3 +24,5 @@ print(f"{(alpha + beta) * (gamma / delta) = }")
 print(f"{(alpha + (beta * gamma)) / delta = }")
 print(f"{alpha + ((beta * gamma) / delta) = }")
 
+print(a ** b)  # exponentiation
+print(a % b)  # modulo (remainder)

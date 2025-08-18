@@ -4,3 +4,7 @@ b = 456
 result = a + b  # raises error due to incompatible types
 
 print(result)
+name = "John Strickler"
+country = "Scotland"
+lunch = "mango"
+
