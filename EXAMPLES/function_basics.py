@@ -1,6 +1,9 @@
 # define function
+
 def say_hello():
     print("Hello, world")
+    return 100
 
-say_hello()  # Call function
+value = say_hello()  # Call function
+print(f"{value = }")
 

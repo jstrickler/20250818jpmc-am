@@ -11,4 +11,4 @@ with open(FILE_PATH) as mary_in:  # open file for reading
         # from end of string
         line = raw_line.rstrip()
         print(line)
-
+# mary_in.close() automatically called
