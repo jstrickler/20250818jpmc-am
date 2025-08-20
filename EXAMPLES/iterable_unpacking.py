@@ -1,5 +1,6 @@
 values = ['a', 'b', 'c']
 
+#  var, var, var = ANY_ITERABLE (but mostly tuples)
 x, y, z = values  # unpack values (which is an iterable) into individual variables
 
 print(x, y, z)
@@ -15,6 +16,12 @@ people = [
     ('Larry', 'Page', 'Google'),
     ('Linux', 'Torvalds', 'Linux'),
 ]
+
+print(f"{people[0] = }")
+print(f"{people[0][0] = }")
+print(f"{people[0][0][0] = }")
+print(f"{people[0][0][0][0][0][0][0] = }")
+
 
 for row in people:
     first_name, last_name, _ = row  # unpack row into variables
