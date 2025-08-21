@@ -43,7 +43,7 @@ def pretty_print_knight_data(knight_info):
     """
     Pretty-print the knight data structure
     """
-    pprint(knight_info)
+    pprint(knight_info, sort_dicts=False)
 
 def print_titles(knight_info):
     """
@@ -58,5 +58,4 @@ def get_field_value(knight_info, knight, field_index):
     """
     return knight_info[knight][field_index]
 
-if __name__ == "__main__":
-    main()
+main()

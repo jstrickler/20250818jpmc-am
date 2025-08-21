@@ -1,4 +1,4 @@
-from geometry import circle_area as ca, rectangle_area as ra, square_area as sa
+from EXAMPLES.alpha.mathlib.geometry import circle_area as ca, rectangle_area as ra, square_area as sa
 circle = sa(8)
 print(f"{circle = }")
 
@@ -7,3 +7,6 @@ print(f"{rectangle = }")
 
 square = sa(7.9)
 print(f"{square = }")
+
+# import MODULE
+# from MODULE import thing1, thing2, ...
